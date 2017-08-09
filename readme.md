@@ -7,7 +7,8 @@ You should be able to get the files via:
 ```
 git clone git@github.com:joehand/dat-clone-sparse-test.git
 cd dat-clone-sparse-test
-dat sync && dat sync
+dat sync
+dat sync  # run again b/c of bug
 ```
 
-Need to figure out why it doesn't work the first time on `dat sync`...
+[This bug](https://github.com/datproject/dat/issues/840) requires you to run `dat sync` twice. I can give pointers to how to fix this if someone wants to PR =).
