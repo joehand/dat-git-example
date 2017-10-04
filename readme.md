@@ -19,8 +19,19 @@ npm install -g dat
 ### Download Data
 
 1. Clone this repository
-2. Download the data via dat
-3. View cat pictures!
+2. Open `index.html` in a browser (you should see missing pictures)
+3. Download the data via dat
+4. Refresh `index.html` and view cat pictures!
+
+```
+git clone https://github.com/joehand/dat-git-example.git
+dat clone ./dat-git-example
+```
+
+
+#### Selective Sync
+
+Including the `.datdownload` folder, you can specify only certain files to be downloaded by default. Download the selective files with:
 
 ```
 git clone https://github.com/joehand/dat-git-example.git
