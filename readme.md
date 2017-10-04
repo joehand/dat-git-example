@@ -6,5 +6,6 @@ You should be able to get the files via:
 
 ```
 git clone https://github.com/joehand/dat-clone-sparse-test.git
-dat clone ./dat-clone-sparse-test
+dat clone ./dat-clone-sparse-test --empty
+dat sync ./dat-clone-sparse-test
 ```
